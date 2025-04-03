@@ -9,18 +9,12 @@ A simple web application that detects the mood from a given text input using Nat
 - Interactive and user-friendly interface using Streamlit
 - Lightweight and easy to deploy using Docker
 
-## 🚀 Live Demo
-
-You can access the deployed application here:  
-[**Mood Detection App on Render**](https://mood-detection-text.onrender.com)
-
 ## 🛠️ Technologies Used
 
 - **Python 3.12**  
 - **Streamlit** for UI  
 - **SpaCy** for Natural Language Processing  
 - **SpeechRecognition** for speech input  
-- **Docker** for containerization  
 
 ## 🧑‍💻 Installation Guide
 
@@ -54,25 +48,6 @@ Follow these steps to set up the project locally:
     ```
 
 6. **Access the App**  
-    - Open [http://localhost:8501](http://localhost:8501) in your browser.
-
----
-
-## 🐳 Deploy Using Docker
-
-To build and run the app using Docker, follow these steps:
-
-1. **Build the Docker Image**  
-    ```bash
-    docker build -t mood-detection-app .
-    ```
-
-2. **Run the Container**  
-    ```bash
-    docker run -p 8501:8501 mood-detection-app
-    ```
-
-3. **Access the App**  
     - Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
