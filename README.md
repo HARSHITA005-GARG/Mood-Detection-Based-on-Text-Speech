@@ -1,4 +1,4 @@
-# Mood Detection from Text
+# Mood Detection from Text-Speech
 
 A simple web application that detects the mood from a given text input using Natural Language Processing (NLP). This project is built using **Streamlit** for the frontend and **SpaCy** for NLP processing. It also supports speech-to-text input for a more interactive experience.
 
